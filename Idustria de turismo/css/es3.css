@@ -1,0 +1,147 @@
+*{
+	margin:0;
+	padding:0;
+}
+header{width:100%;
+	background:#5F9EA0 ;
+	height:70px;
+}
+.menu{
+	width:80%;
+	height:70px;
+	background:#5F9EA0;
+	margin:auto;
+}
+.logo{
+	width:30%;
+	height:70px;
+	background:#5F9EA0;
+	float:left;
+	padding-top:10px;
+	box-sizing:border-box;
+	text-decoration:none;	
+}
+nav{
+	width:70%;
+	height:70px;
+	background:#5F9EA0;
+	float:left;
+	text-align:right;
+	padding-top:24px;
+	box-sizing:border-box;
+}
+nav ul li{
+	display:inline;
+}
+nav ul li a{
+	color:white;
+	font-size:13px;
+	text-decoration:none;
+	text-transform:uppercase;
+	padding-left:20px;
+	font-weight:bold;
+	letter-spacing:1px;
+}
+nav ul li a:hover{
+	color:#4444;
+}
+.logo p a{
+	color:white;
+	font-size:50px;
+	text-decoration:none;
+}
+body{
+		background:#E0FFFF;
+}
+.imagenes{
+	width:800px;
+	height:500px;
+	margin:30px auto;
+	overflow:hidden;
+}
+.imagenes ul{
+		list-style:none;
+		width:2800px;
+		display:flex;
+		
+		animation:slide 20s infinite;
+}
+@keyframes slide{
+	0% {margin-left: 0px;}
+	20% {margin-left: 0px;}
+	
+	25% {margin-left: -1100px;}
+	45% {margin-left: -1100px;}
+	
+	50% {margin-left: -2200px;}
+	70% {margin-left: -2200px;}
+	
+	75% {margin-left: -3600px;}
+	100% {margin-left: -3600px;}
+
+}
+h1{
+	text-transform:uppercase;
+	color:#1E90FF;
+	cursor:default;
+	font-size:23px;	
+	letter-spacing:2px;
+	padding:5px;
+	margin:5px;
+	text-align:center;
+}
+section table{
+	width:99%;
+	border-color:#708090;
+	border-radius:5px;
+	background:white;
+	margin:5px;
+	padding:10px;
+	cursor:default;
+	line-height:1.5;
+	text-decoration:none;
+	text-align:left;
+	transition: all 400ms ease;
+}
+table:hover{
+box-shadow:5px 5px 20px rgba(0,0,0,0.4);
+	transform: transLateY(-3%);
+}
+td, th{
+	padding:15px;
+}
+tr:hover{
+	background-color:#EefFFF;
+}
+footer{
+	background:#5F9EA0;
+	color:white;
+	padding:15px;
+}
+.imagenes:hover{
+	box-shadow:5px 5px 20px rgba(0,0,0,0.4);
+	transform: transLateY(-3%);
+}
+.lista ul{
+	font-size:18px;
+	text-align:left;
+	margin:6px;
+	padding:6px;
+	cursor:default;
+	line-height:1.5;
+	text-decoration:none;
+}
+.lista ul a{
+	cursor:default;
+	line-height:1.5;
+	text-decoration:none;
+	color:#1E90FF;
+}
+h3{
+	padding-top:10px;
+	margin:8px;
+	text-transform:uppercase;
+	font-size:23px;	
+	color:#1E90FF;
+	letter-spacing:2px;
+}
